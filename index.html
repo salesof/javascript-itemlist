@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  <head>
+    <title>Javascript itemlist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Urbanist&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Javascript itemlist</h1>
+    </div>
+    <main>
+
+      <div class="searchContainer">
+        <h2>Search for an item</h2>
+        <div class="itemSearch">
+          <input type="text" class="searchInput" id="filter" placeholder="Search items...">
+        </div>
+      </div>
+
+      <div class="itemContainer">
+        <h2>Add an item</h2>
+        <form class="itemForm">
+          <input type="text" class="itemInput"></input>
+          <input type="submit" class="addBtn" value="Add"></input>
+        </form>
+        <div class="itemlistContainer">
+          <h2>Items</h2>
+          <p class="empty">Currently empty</p>
+          <ul class="itemlist">
+          </ul>
+        </div>
+      </div>
+        <div id="editWindow" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Edit an item</h2>
+            <form class="editItemForm">
+              <input type="text" id="itemEdit"></input>
+              <input type="submit" class="editBtnModal" value="Edit"></input>
+            </form>
+          </div>
+        </div>
+      </main>
+      <script src="app.js"></script>
+  </body>
+</html>

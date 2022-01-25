@@ -1,0 +1,154 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #333;
+  margin: 0;
+}
+
+main {
+  margin: auto;
+  width: 400px;
+  padding-bottom: 20px;
+}
+
+.heading {
+  text-align: center;
+  color: #fff;
+  background-color: #3CB371;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Urbanist', sans-serif;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.searchContainer {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.itemContainer {
+  background-color: #E0E0E0;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.itemlistContainer {
+  margin-top: 40px;
+}
+
+.searchInput {
+  width: 280px;
+}
+
+.searchBtn {
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  padding: 3px;
+  width: 60px;
+}
+
+.itemInput {
+  width: 280px;
+}
+
+.addBtn {
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  padding: 3px;
+  width: 60px;
+}
+
+ul {
+  width: 315px;
+}
+
+li {
+  padding: 5px;
+}
+
+.editBtn {
+  font-weight: bold;
+  color: #fff;
+  background-color: #3CB371;
+  border: none;
+  padding: 0px;
+  float: right;
+  margin-right: 5px;
+}
+
+ .deleteBtn {
+   font-weight: bold;
+   color: #fff;
+   background-color: #c63939;
+   border: none;
+   padding: 0px;
+   float: right;
+ }
+
+i {
+  padding: 3px 7px 3px 7px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 25px 20px 30px 20px;
+  width: 400px;
+  min-height: 120px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#itemEdit {
+  width: 280px;
+}
+
+.editBtnModal {
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  padding: 3px;
+  width: 60px;
+}
